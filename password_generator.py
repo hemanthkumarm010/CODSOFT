@@ -17,7 +17,7 @@ def generate_password(length, uppercase, digits, special_chars):
     return password
 
 def main():
-    print("Welcome to the Password Generator!")
+    print("Welcome to Password Generator!")
 
     length = int(input("Enter the length of the password: "))
     uppercase = input("Include uppercase letters? (y/n): ").lower() == 'y'
@@ -27,7 +27,7 @@ def main():
     password = generate_password(length, uppercase, digits, special_chars)
 
     if password:
-        print(f"\nYour generated password is: {password}")
+        print(f"\nThe generated password is: {password}")
 
 if __name__ == "__main__":
     main()
