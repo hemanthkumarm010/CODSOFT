@@ -19,9 +19,9 @@ def determine_winner(user_choice, computer_choice):
         (user_choice == "paper" and computer_choice == "rock") or
         (user_choice == "scissors" and computer_choice == "paper")
     ):
-        return "Hurray! You win!"
+        return "Bravo! You win!"
     else:
-        return "Computer wins! better luck next time"
+        return "Computer wins! Better luck next time"
 
 def main():
     print("Welcome to Rock-Paper-Scissors!")
