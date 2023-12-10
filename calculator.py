@@ -11,13 +11,13 @@ def divide(x,y):
     if y!= 0:
         return x/y
     else:
-        return "Cannot divide any number by zero"
+        return "A number cannot be divided r by zero"
 
 def modulus(x,y):
     if y!=0:
         return x%y
     else:
-        return "Cannot calculate modulus. The divisor (y) cannot be zero."
+        return "The divisor cannot be zero."
 
 
 while True:
