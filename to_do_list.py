@@ -1,6 +1,7 @@
 import os
 import json
 
+"""creating a file"""
 TODO_FILE = "todo.json"
 
 def load_todo():
