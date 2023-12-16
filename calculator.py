@@ -1,3 +1,5 @@
+"""SIMPLE CALCULATOR"""
+"""basic arithmetic calculations"""
 def add(x,y):
     return x+y
 
