@@ -1,6 +1,7 @@
 import random
 import string
 
+"""generate password"""
 def generate_password(length, uppercase, digits, special_chars):
     characters = string.ascii_lowercase
     if digits:
