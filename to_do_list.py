@@ -3,7 +3,7 @@ import os
 import json
 
 """creating a file"""
-TODO_FILE = "todo.json"
+TODO_FILE = "todo.anto"
 
 def load_todo():
     """Load existing to-do list from file."""
