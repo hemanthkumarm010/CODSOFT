@@ -21,7 +21,7 @@ def modulus(x,y):
 
 
 while True:
-    print("\nLet's Calculate!")
+    print("\nChoose a suitable option!\n")
     print("1. Add")
     print("2. Subtract")
     print("3. Multiply")
@@ -29,7 +29,7 @@ while True:
     print("5. Modulus")
     print("6. Exit")
 
-    choice = input("Enter your choice (1/2/3/4/5/6): ")
+    choice = input("Enter your choice\n")
 
     if choice in ('1', '2', '3', '4','5','6'):
         try:
