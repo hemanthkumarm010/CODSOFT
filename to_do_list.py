@@ -16,6 +16,7 @@ def save_todo(todo):
         json.dump(todo, file)
 
 def display_todo(todo):
+    """Display to-do list"""
     print("To-Do List:")
     if not todo:
         print("No tasks.")
