@@ -1,5 +1,6 @@
 import random
 
+"""get input from user"""
 def get_user_choice():
     while True:
         user_choice = input("Enter your choice (rock, paper, or scissors): ")
@@ -7,10 +8,12 @@ def get_user_choice():
             return user_choice
         else:
             print("Invalid choice.")
-
+            
+"""generate computer's choice"""
 def get_computer_choice():
     return random.choice(["rock", "paper", "scissors"])
 
+"""determine the winner"""
 def determine_winner(user_choice, computer_choice):
     if user_choice == computer_choice:
         return "It's a tie!"
