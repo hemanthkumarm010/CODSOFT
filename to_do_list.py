@@ -1,7 +1,6 @@
 import os
 import json
 
-# File to store the to-do list data
 TODO_FILE = "todo.json"
 
 def load_todo():
@@ -17,7 +16,6 @@ def save_todo(todo):
         json.dump(todo, file)
 
 def display_todo(todo):
-    """Display the current to-do list."""
     print("To-Do List:")
     if not todo:
         print("No tasks.")
@@ -47,7 +45,6 @@ def update_description(todo, task, new_description):
         print(f"Task '{task}' not found in the to-do list.")
 
 def main():
-    """Main function to run the to-do list application."""
     todo = load_todo()
 
     while True:
