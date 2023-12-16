@@ -6,7 +6,7 @@ def get_user_choice():
         if user_choice in ["rock", "paper", "scissors"]:
             return user_choice
         else:
-            print("Invalid choice. Please enter rock, paper, or scissors.")
+            print("Invalid choice.")
 
 def get_computer_choice():
     return random.choice(["rock", "paper", "scissors"])
@@ -21,7 +21,7 @@ def determine_winner(user_choice, computer_choice):
     ):
         return "Bravo! You win!"
     else:
-        return "Computer wins! Better luck next time"
+        return "Computer wins!"
 
 def main():
     print("Welcome to Rock-Paper-Scissors!")
@@ -37,7 +37,7 @@ def main():
         print(result)
 
         play_again = input("Do you want to play again? (yes/no): ")
-        if play_again != "yes":
+        if play_again == "no":
             print("Thanks for playing. Goodbye!")
             break
 
